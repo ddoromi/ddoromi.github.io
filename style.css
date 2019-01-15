@@ -1,0 +1,32 @@
+/* selector { property: value (property+value = declaration)} */
+a {
+    color: red;
+}
+
+.bio-box a {
+    color: green;
+}
+
+#exec-bio {
+    background-color: lightgray;
+}
+
+.bio-box {
+    border: 1px solid black;
+}
+
+#bbubu {
+    background-color: orange;
+}
+
+body .box {
+    background-color: aqua;
+}
+
+.box {
+    background-color: burlywood;
+}
+
+.alret {
+    background-color: red;
+}

@@ -127,5 +127,85 @@
                 <td rowspan="2">폴킴</td>
             </tr>
         </table>
+
+        <h3>Form</h3>
+        <p>자기소개하기</p>
+        <form action="./index.html">
+            <div>
+                이름: <input name="name" type="text" placeholder="이름을 입력해라!">
+            </div>
+            <div>
+                나이: <input name="age" type="number">
+            </div>
+            <div>
+                전화번호: <input name="phone" type="text">
+            </div>
+            <div>
+                자기소개: <textarea name="intro"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+
+        <p>주문서를 작성해 주세요</p>
+        <form action="">
+            <div>
+                이름: <input name="name" type="text" autofocus>
+            </div>
+            <div>
+                날짜: <input name="date" type="date">
+            </div>
+            <p><strong>1. 샌드위치 선택</strong></p>
+            <!-- radio 하나만 선택 가능+-->
+            <div>
+                <input type="radio" name="sandwich" value="1">스테이크
+                <input type="radio" name="sandwich" value="2">터키아보카도
+                <input type="radio" name="sandwich" value="3">미트볼
+            </div>
+            <p><strong>2. 사이즈 선택</strong></p>
+            <!-- number -->
+            <div>
+                <input type="number" name="size" min="15" max="30" step="15" value="15">
+            </div>
+            <p><strong>3. 빵</strong></p>
+            <!-- option -->
+            <div>
+                <select name="bread">
+                    <option value="1">플랫브레드</option>
+                    <option value="2">허니오트</option>
+                    <option value="3">파마산</option>
+                </select>
+            </div>
+            <p><strong>4. 소스</strong></p>
+            <!-- 체크박스 중복 가능-->
+            <div>
+                <input type="checkbox" name="option" value="1">핫칠리
+                <input type="checkbox" name="option" value="2">스위트 칠리
+                <input type="checkbox" name="option" value="3">홀드 래디쉬
+                <input type="checkbox" name="option" value="4">랜치
+                <input type="checkbox" name="option" value="5">스위트 어니언
+            </div>
+
+            <!-- 제출 => Subway! -->
+            <input type="submit" value="Subway">
+        </form>
+
+        <h1>Comming Soon...</h1>
+        <img src="./animals/cat1.jpg" alt="cat" />
+
+        <u1>
+            <li>HTML</li>
+            <li>CSS</li>
+        </u1>
+    
+        <p> <!--본문-->
+            <i>This</i> <em>is</em>  <b>SSAFY</b> <strong>1st</strong>
+        </p>
+
+        <blockquote> <!--인용-->
+            Real Artist Ship
+        </blockquote>
+
     </body>
 </html>
